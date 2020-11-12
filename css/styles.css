@@ -5,17 +5,19 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: #444;
 }
 
 
 #cabecera {
-    background-color: #33a;
+    background-color: #aaa;
     box-shadow: 0 2px 20px 0px rgba(0, 0, 0, 0.5);
-    color: white;
+    color: #444;
     font-weight: bold;
     margin: 0;
     padding: 15px;
     font-size: 30px;
+    text-align: center;
 }
 
 #cabecera #tagline {
@@ -30,6 +32,8 @@ body {
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
 }
 
 #container h1 {
